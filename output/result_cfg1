@@ -1,0 +1,478 @@
+stack:{0,}
+	symbol:
+	input:(start,int main()) ({,{) (type,double) (var,temp1) (=,=) (num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,}
+	symbol:start 
+	input:({,{) (type,double) (var,temp1) (=,=) (num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,}
+	symbol:start { 
+	input:(type,double) (var,temp1) (=,=) (num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,}
+	symbol:start { type 
+	input:(var,temp1) (=,=) (num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,}
+	symbol:start { type var 
+	input:(=,=) (num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,}
+	symbol:start { type var = 
+	input:(num,3) (plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,47,}
+	symbol:start { type var = num 
+	input:(plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,}
+	symbol:start { type var = E 
+	input:(plus_minus,+) (num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,}
+	symbol:start { type var = E plus_minus 
+	input:(num,5) (muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,47,}
+	symbol:start { type var = E plus_minus num 
+	input:(muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,}
+	symbol:start { type var = E plus_minus E 
+	input:(muti_divide,*) (num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,}
+	symbol:start { type var = E plus_minus E muti_divide 
+	input:(num,6) (plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,47,}
+	symbol:start { type var = E plus_minus E muti_divide num 
+	input:(plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,88,}
+	symbol:start { type var = E plus_minus E muti_divide E 
+	input:(plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,}
+	symbol:start { type var = E plus_minus E 
+	input:(plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,}
+	symbol:start { type var = E 
+	input:(plus_minus,-) (num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,}
+	symbol:start { type var = E plus_minus 
+	input:(num,7) (muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,47,}
+	symbol:start { type var = E plus_minus num 
+	input:(muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,}
+	symbol:start { type var = E plus_minus E 
+	input:(muti_divide,/) (num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,}
+	symbol:start { type var = E plus_minus E muti_divide 
+	input:(num,8) (delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,47,}
+	symbol:start { type var = E plus_minus E muti_divide num 
+	input:(delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,67,88,}
+	symbol:start { type var = E plus_minus E muti_divide E 
+	input:(delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,65,86,}
+	symbol:start { type var = E plus_minus E 
+	input:(delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,}
+	symbol:start { type var = E 
+	input:(delimiter,;) (type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,48,66,}
+	symbol:start { type var = E delimiter 
+	input:(type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,6,20,26,46,}
+	symbol:start { type var = C 
+	input:(type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,8,}
+	symbol:start { B 
+	input:(type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,7,}
+	symbol:start { STATEMENT 
+	input:(type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,}
+	symbol:start { Content 
+	input:(type,int) (var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,}
+	symbol:start { Content type 
+	input:(var,i1) (split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,}
+	symbol:start { Content type var 
+	input:(split,,) (var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,29,}
+	symbol:start { Content type var split 
+	input:(var,i2) (split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,29,52,}
+	symbol:start { Content type var split var 
+	input:(split,,) (var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,29,52,29,}
+	symbol:start { Content type var split var split 
+	input:(var,i3) (delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,29,52,29,52,}
+	symbol:start { Content type var split var split var 
+	input:(delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,29,52,70,}
+	symbol:start { Content type var split var E' 
+	input:(delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,28,}
+	symbol:start { Content type var E' 
+	input:(delimiter,;) (type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,28,51,}
+	symbol:start { Content type var E' delimiter 
+	input:(type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,10,}
+	symbol:start { Content D 
+	input:(type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,19,}
+	symbol:start { Content STATEMENT 
+	input:(type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,}
+	symbol:start { Content 
+	input:(type,int) (var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,}
+	symbol:start { Content type 
+	input:(var,i4) (=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,}
+	symbol:start { Content type var 
+	input:(=,=) (var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,}
+	symbol:start { Content type var = 
+	input:(var,i1) (=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,}
+	symbol:start { Content type var = var 
+	input:(=,=) (var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,}
+	symbol:start { Content type var = var = 
+	input:(var,i2) (=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,}
+	symbol:start { Content type var = var = var 
+	input:(=,=) (var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,}
+	symbol:start { Content type var = var = var = 
+	input:(var,i3) (=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,}
+	symbol:start { Content type var = var = var = var 
+	input:(=,=) (num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,}
+	symbol:start { Content type var = var = var = var = 
+	input:(num,3) (plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,47,}
+	symbol:start { Content type var = var = var = var = num 
+	input:(plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,}
+	symbol:start { Content type var = var = var = var = E 
+	input:(plus_minus,-) (num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,}
+	symbol:start { Content type var = var = var = var = E plus_minus 
+	input:(num,7) (muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,47,}
+	symbol:start { Content type var = var = var = var = E plus_minus num 
+	input:(muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,}
+	symbol:start { Content type var = var = var = var = E plus_minus E 
+	input:(muti_divide,*) ((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide 
+	input:((,() (num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( 
+	input:(num,5) (plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,61,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( num 
+	input:(plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E 
+	input:(plus_minus,+) (num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,83,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E plus_minus 
+	input:(num,6) (),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,83,61,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E plus_minus num 
+	input:(),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,83,98,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E plus_minus E 
+	input:(),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E 
+	input:(),)) (delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,50,69,90,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide ( E ) 
+	input:(delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,67,88,}
+	symbol:start { Content type var = var = var = var = E plus_minus E muti_divide E 
+	input:(delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,65,86,}
+	symbol:start { Content type var = var = var = var = E plus_minus E 
+	input:(delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,}
+	symbol:start { Content type var = var = var = var = E 
+	input:(delimiter,;) (for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,48,66,}
+	symbol:start { Content type var = var = var = var = E delimiter 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,49,68,89,}
+	symbol:start { Content type var = var = var = var = C 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,49,68,89,}
+	symbol:start { Content type var = var = var = C 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,49,68,89,}
+	symbol:start { Content type var = var = C 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,6,20,26,46,}
+	symbol:start { Content type var = C 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,8,}
+	symbol:start { Content B 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,19,}
+	symbol:start { Content STATEMENT 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,}
+	symbol:start { Content 
+	input:(for,for) ((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,}
+	symbol:start { Content for 
+	input:((,() (type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,}
+	symbol:start { Content for ( 
+	input:(type,int) (var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,}
+	symbol:start { Content for ( type 
+	input:(var,i) (=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,}
+	symbol:start { Content for ( type var 
+	input:(=,=) (num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,79,}
+	symbol:start { Content for ( type var = 
+	input:(num,0) (delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,79,47,}
+	symbol:start { Content for ( type var = num 
+	input:(delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,79,96,}
+	symbol:start { Content for ( type var = E 
+	input:(delimiter,;) (var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,79,96,105,}
+	symbol:start { Content for ( type var = E delimiter 
+	input:(var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,37,57,79,95,}
+	symbol:start { Content for ( type var = C 
+	input:(var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,}
+	symbol:start { Content for ( B 
+	input:(var,i) (compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,}
+	symbol:start { Content for ( B var 
+	input:(compare_op,<) (num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,76,}
+	symbol:start { Content for ( B var compare_op 
+	input:(num,10) (delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,76,93,}
+	symbol:start { Content for ( B var compare_op num 
+	input:(delimiter,;) (increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,76,93,103,}
+	symbol:start { Content for ( B var compare_op num delimiter 
+	input:(increment_op,++) (var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,76,93,103,107,}
+	symbol:start { Content for ( B var compare_op num delimiter increment_op 
+	input:(var,i) (),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,35,55,76,93,103,107,109,}
+	symbol:start { Content for ( B var compare_op num delimiter increment_op var 
+	input:(),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,}
+	symbol:start { Content for ( forstate 
+	input:(),)) ({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,}
+	symbol:start { Content for ( forstate ) 
+	input:({,{) (IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,}
+	symbol:start { Content for ( forstate ) { 
+	input:(IF,if) ((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,}
+	symbol:start { Content for ( forstate ) { IF 
+	input:((,() (var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,}
+	symbol:start { Content for ( forstate ) { IF ( 
+	input:(var,i) (compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,33,}
+	symbol:start { Content for ( forstate ) { IF ( var 
+	input:(compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,34,}
+	symbol:start { Content for ( forstate ) { IF ( judgevar 
+	input:(compare_op,<) (num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,34,54,}
+	symbol:start { Content for ( forstate ) { IF ( judgevar compare_op 
+	input:(num,5) (),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,34,54,75,}
+	symbol:start { Content for ( forstate ) { IF ( judgevar compare_op num 
+	input:(),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,34,54,74,}
+	symbol:start { Content for ( forstate ) { IF ( judgevar compare_op judgevar 
+	input:(),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement 
+	input:(),)) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) 
+	input:({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { 
+	input:(StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,13,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { StandardScope 
+	input:(scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,13,21,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { StandardScope scope_op 
+	input:(ioclass,cout) (io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,13,21,30,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { StandardScope scope_op ioclass 
+	input:(io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS 
+	input:(io_op,<<) (var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,25,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS io_op 
+	input:(var,i) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,25,45,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS io_op var 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,25,43,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS io_op E 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,25,41,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS io_op io_var 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,39,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE io_op 
+	input:(iostring,endl) (delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,39,40,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE io_op iostring 
+	input:(delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,39,58,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE io_op io_var 
+	input:(delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE 
+	input:(delimiter,;) (},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,17,24,38,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IOCLASS IO_VALUE delimiter 
+	input:(},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,11,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { IO 
+	input:(},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,7,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { STATEMENT 
+	input:(},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,92,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { Content 
+	input:(},}) (ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,72,92,102,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) { Content } 
+	input:(ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK 
+	input:(ELSE,else) ({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE 
+	input:({,{) (StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { 
+	input:(StandardScope,std) (scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,13,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { StandardScope 
+	input:(scope_op,::) (ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,13,21,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { StandardScope scope_op 
+	input:(ioclass,cout) (io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,13,21,30,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { StandardScope scope_op ioclass 
+	input:(io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS 
+	input:(io_op,<<) (var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op 
+	input:(var,i) (plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,45,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op var 
+	input:(plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,43,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op E 
+	input:(plus_minus,+) (num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,43,59,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op E plus_minus 
+	input:(num,5) (io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,43,59,42,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op E plus_minus num 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,43,59,80,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op E plus_minus E 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,43,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op E 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,25,41,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS io_op io_var 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE 
+	input:(io_op,<<) (iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,39,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE io_op 
+	input:(iostring,endl) (delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,39,40,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE io_op iostring 
+	input:(delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,39,58,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE io_op io_var 
+	input:(delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE 
+	input:(delimiter,;) (},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,17,24,38,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IOCLASS IO_VALUE delimiter 
+	input:(},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,11,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { IO 
+	input:(},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,7,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { STATEMENT 
+	input:(},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,94,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { Content 
+	input:(},}) (},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,78,94,104,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE { Content } 
+	input:(},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,15,22,31,53,71,91,101,}
+	symbol:start { Content for ( forstate ) { IF ( judgestatement ) BLOCK ELSE BLOCK 
+	input:(},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,9,}
+	symbol:start { Content for ( forstate ) { IFELSE 
+	input:(},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,7,}
+	symbol:start { Content for ( forstate ) { STATEMENT 
+	input:(},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,94,}
+	symbol:start { Content for ( forstate ) { Content 
+	input:(},}) (},}) 
+stack:{0,2,4,5,16,23,36,56,78,94,104,}
+	symbol:start { Content for ( forstate ) { Content } 
+	input:(},}) 
+stack:{0,2,4,5,16,23,36,56,77,}
+	symbol:start { Content for ( forstate ) BLOCK 
+	input:(},}) 
+stack:{0,2,4,5,12,}
+	symbol:start { Content F 
+	input:(},}) 
+stack:{0,2,4,5,19,}
+	symbol:start { Content STATEMENT 
+	input:(},}) 
+stack:{0,2,4,5,}
+	symbol:start { Content 
+	input:(},}) 
+stack:{0,2,4,5,18,}
+	symbol:start { Content } 
+	input:
+stack:{0,2,3,}
+	symbol:start BLOCK 
+	input:
+stack:{0,1,}
+	symbol:S 
+	input:
+accept

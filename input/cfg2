@@ -1,0 +1,4 @@
+E->E plus_minus E | E muti_divide E | '(' E ')' | num
+$$
+{plus_minus,L}
+{muti_divide,L}

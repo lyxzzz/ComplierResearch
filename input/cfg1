@@ -1,0 +1,33 @@
+S->start BLOCK
+
+
+BLOCK->'{' Content '}'
+Content->Content STATEMENT | STATEMENT
+STATEMENT-> B|D|F|IO|IFELSE
+
+B->type var '=' C
+C->E delimiter| var '=' C
+
+D->type var delimiter| type var E' delimiter
+E'->split var | split var E'
+
+E->E plus_minus E | E muti_divide E | '(' E ')' | num | var
+
+F->for '(' forstate ')' BLOCK
+forstate-> B var compare_op num delimiter increment_op var
+
+IO->IOCLASS IO_VALUE delimiter
+IOCLASS->StandardScope scope_op ioclass | ioclass
+IO_VALUE->io_op io_var | IO_VALUE io_op io_var
+io_var->E|iostring
+
+IFELSE->IF '(' judgestatement ')' BLOCK | IF '(' judgestatement ')' BLOCK ELSE BLOCK
+judgestatement->num|judgevar compare_op judgevar
+judgevar->num|var
+
+$$
+{io_op,L}
+{plus_minus,L}
+{muti_divide,L}
+{=,R}
+{delimiter,L}
